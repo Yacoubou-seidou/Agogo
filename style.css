@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(67, 150, 122);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  width: 20%;
+  padding: 7px;
+  background-color: transparent;
+  border: 1px solid black;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: aliceblue;
+  color: black;
+}
+.entrer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45%;
+}
+#inp {
+  width: 30%;
+  height: 35px;
+  color: darkblue;
+  font-size: 20px;
+  text-align: center;
+}
+.letemps {
+  margin-bottom: 50px;
+}
+.restemps {
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.visuel {
+  margin-top: 20%;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 50px;
+}

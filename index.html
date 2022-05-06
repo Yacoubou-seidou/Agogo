@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <button class="btn" data-time="1800" id="btn1">30 MUSIC</button>
+        <button class="btn" data-time="900" id="btn2">15 PRIERE</button>
+        <button class="btn" data-time="1200" id="btn3">20 DEJEUNER</button>
+        <button class="btn" data-time="3000" id="btn4">50 JEUX</button>
+        <button class="btn" data-time="1500" id="btn5">25 PAUSE</button>
+      </div>
+      <form name="entrer" class="entrer" id="custom">
+        <input
+          type="text"
+          name="minutes"
+          id="inp"
+          placeholder="Enter time in minutes"
+          size="40"
+        />
+      </form>
+
+      <div class="visuel">
+        <h1 class="letemps" id="letemps"></h1>
+        <h3 class="restemps" id="restemps"></h3>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
